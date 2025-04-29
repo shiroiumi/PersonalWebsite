@@ -1,30 +1,45 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
+<script setup lang="ts">
+import Navigation from "./components/Navigation.vue";
 </script>
 
 <template>
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+  <div class="main-site">
+    <div class="nav">
+      <Navigation />
+    </div>
+    <div class="page">
+      <router-view />
+    </div>
   </div>
-  <HelloWorld msg="Vite + Vue" />
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+<style scoped lang="scss">
+.main-site {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  width: 100%;
+  background-color: $body-background;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+
+.nav {
+  display: flex;
+  background-color: $paper;
+  margin: 16px;
+  margin-right: 8px;
+  border-radius: 8px;
+  max-width: 300px;
+  min-width: 300px;
 }
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+
+.page {
+  flex-grow: 1;
+  background-color: $paper;
+  margin: 16px;
+  margin-left: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: calc(100vw - 300px - 40px);
+  max-height: calc(100vh - 32px);
 }
 </style>

@@ -1,0 +1,168 @@
+{
+  "experience": [
+    {
+      "year": "Jul 2022 - Dec 2024",
+      "location": "Nutrien Ltd",
+      "title": "Frontend Developer",
+      "description": [
+        "Developed and maintained web applications to visualize and manage large-scale logistics data in an Agile environment.",
+        "Led feature development, bug fixes, migrated and updated legacy codebases and used modern CI/CD workflows.",
+        "Mentored junior developers through pull requests and reviews",
+        "Wrote unit tests and contributed to improving to overall code quality and test coverage"
+      ],
+      "techStack": [
+        "TypeScript",
+        "React",
+        "Single-Spa",
+        "React-Query",
+        "MobX",
+        "Storybook",
+        "Google Maps",
+        "React Testing Library",
+        "Jest",
+        "Github Actions",
+        "CircleCi",
+        "AWS"
+      ]
+    },
+    {
+      "year": "Aug 2021 - Jun 2022",
+      "location": "Arcurve Inc",
+      "title": "Fullstack Developer",
+      "description": [
+        "Worked on both in house projects and external client contracts, delivering fullstack web applications.",
+        "Developed an internal web application to consolidate data and simplify invoicing.",
+        "Set up automated deployment pipelines using Azure and Bicep to streamline infrastructure management."
+      ],
+      "techStack": ["ASP.NET", "Blazor", "Bicep", "Azure"]
+    },
+    {
+      "year": "Mar 2022 - Jun 2022",
+      "location": "Shaw Communications Inc",
+      "title": "Frontend Developer - As Arcurve Contractor",
+      "description": [
+        "Developed features and maintained web applications to process customer orders and dynamically manage content based on customer location and history in an Agile environment.",
+        "Migrated legacy code and unit tests to modern frameworks including React and React Testing Library.",
+        "Added new features, resolved bugs, and contributed to the modernization of the codebase."
+      ],
+      "techStack": [
+        "JavaScript",
+        "HTML",
+        "Handlebars",
+        "React",
+        "Redux",
+        "jQuery",
+        "Jest",
+        "Enzyme",
+        "React Testing Library"
+      ]
+    },
+    {
+      "year": "Sept 2021 - Jan 2022",
+      "location": "Greenworks",
+      "title": "Fullstack Developer - As Arcurve Contractor",
+      "description": [
+        "Developed a full-stack web application to aggregate reporting data and generate consolidated, formatted reports tailored to various specifications.",
+        "Built and consumed RESTful APIs for inter-service communication, ensuring scalable and maintainable data flows.",
+        "Used Docker to streamline local development and deployment workflows."
+      ],
+      "techStack": [
+        "TypeScript",
+        "React",
+        "Redux",
+        "Node.js",
+        "Express.js",
+        "PostgreSQL",
+        "Prisma",
+        "Jest",
+        "React Testing Library",
+        "Docker",
+        "AWS",
+        "S3",
+        "CloudWatch",
+        "EBS"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "year": "Graduated 2021",
+      "location": "University of Calgary",
+      "title": "Degree of Bachelor of Science in Software Engineering",
+      "description": [
+        "Embedded System Development, Computer and Software Architecture, Computer Security, Neural Networks, Software Requirements, Database, Operating Systems, Networking, Project Management, Project Design, Software Testing"
+      ],
+      "techStack": ["Java", "C", "C++", "Python", "x86 Assembly"]
+    },
+    {
+      "year": "Mar 2022",
+      "location": "AWS",
+      "title": "Certified AWS Cloud Practitioner",
+      "description": [],
+      "techStack": ["AWS"]
+    }
+  ],
+  "project": [
+    {
+      "year": "2019 - 2021",
+      "location": "Schulich Racing - Formula SAE Team",
+      "title": "Software Team Member",
+      "description": [
+        "Developed a full-stack web application using React to visualize real-time automotive data, enabling the team to monitor and optimize vehicle performance.",
+        "Contributed to backend development using PostgreSQL, Node.js, Python, and C to collect, process, and store telemetry data from the race car.",
+        "Collaborated with cross-functional teams (electrical and mechanical) to ensure data accuracy and usability for race optimization."
+      ],
+      "techStack": [
+        "TypeScript",
+        "React",
+        "Python",
+        "C",
+        "UDP/TCP",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "year": "Nov 2020",
+      "location": "Innovation4Health",
+      "title": "Best Overall Winner",
+      "description": [
+        "Designed and developed a gamified solution to assist researchers in gathering data from children undergoing brain stimulation therapy.",
+        "Built a Unity3D game controlled by electromyography (EMG) signals via Arduino hardware, making the data collection process more engaging and less stressful for young patients.",
+        "Collaborated with a multidisciplinary team to gather requirements, design the gameplay mechanics, and implement the hardware-software integration."
+      ],
+      "techStack": ["C#", "C", "Unity3D", "Arduino"]
+    },
+    {
+      "year": "2021",
+      "location": "University of Calgary - Year End Project",
+      "title": "CodeDoodle",
+      "description": [
+        "Developed a web-based debugging and learning tool that integrates with GDB and Linux to visualize function frames, stack memory, pointers, heap, and static string data.",
+        "Built the frontend using React and JavaScript, and implemented backend functionality in Python to interact with GDB and parse program state.",
+        "Designed the system to help users better understand low-level memory behavior during program execution."
+      ],
+      "techStack": ["Python", "JavaScript", "React", "GDB", "Linux"]
+    },
+    {
+      "year": "2024",
+      "location": "Personal Github",
+      "title": "GR86 CAN Display",
+      "description": [
+        "Prototyped and built digital display tool that reads CAN bus off of a GR86 using an ESP32.",
+        "Hardware was breadboarded and designed by myself.",
+        "Can be used to display any live CAN data such as RPM, Speed, Steering Angle, Clutch Position, etc"
+      ],
+      "techStack": ["C", "CAN", "Embedded Systems"]
+    },
+    {
+      "year": "2025",
+      "location": "Personal Github",
+      "title": "DecoByte",
+      "description": [
+        "Building a live Reverse Engineering tool able to spy on other program memory",
+        "UI is built with ImGui and can be used to interpret byte data as other data types"
+      ],
+      "techStack": ["C++", "ImGui"]
+    }
+  ]
+}
