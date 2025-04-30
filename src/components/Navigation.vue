@@ -1,5 +1,9 @@
 <script setup lang="ts">
 import NavigationLink from "./NavigationLink.vue";
+
+const navToGithub = () => {
+  window.location.href = "http://github.com/shiroiumi";
+};
 </script>
 
 <template>
@@ -14,7 +18,11 @@ import NavigationLink from "./NavigationLink.vue";
         <p class="nav-profile-title">Frontend Developer</p>
       </div>
       <div class="nav-socials">
-        <img class="nav-socials-icon" src="../assets/github-mark.svg" />
+        <img
+          class="nav-socials-icon"
+          src="../assets/github-mark.svg"
+          v-on:click="navToGithub()"
+        />
       </div>
     </div>
     <div class="nav-links">
@@ -65,8 +73,14 @@ import NavigationLink from "./NavigationLink.vue";
 .nav-socials-icon {
   filter: invert(40%) sepia(20%) saturate(0%) hue-rotate(148deg) brightness(98%)
     contrast(86%);
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+
+  &:hover {
+    filter: brightness(0) saturate(100%) invert(26%) sepia(0%) saturate(1498%)
+      hue-rotate(175deg) brightness(95%) contrast(82%);
+  }
 }
 
 .nav-links {

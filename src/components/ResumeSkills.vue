@@ -17,6 +17,7 @@ const otherFrontendTech = [
 const testTech = ["Jest", "React Testing Library", "Enzyme", "Storybook"];
 
 const backendTech = [
+  "Nodejs",
   "PostgreSQL",
   "Express.js",
   "Flask",

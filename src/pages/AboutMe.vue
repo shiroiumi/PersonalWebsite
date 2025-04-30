@@ -35,6 +35,9 @@ onMounted(() => {
         probably out photographing wildlife, working on my car, or picking up a
         new hobby just for the fun of it. Thanks for stopping by!
       </p>
+      <div>
+        <button />
+      </div>
     </div>
     <div class="about-me-image-carousel">
       <img
